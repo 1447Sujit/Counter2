@@ -1,0 +1,69 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.appContainer{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+}
+
+.heading{
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: rgb(237, 18, 120);
+}
+
+.counterContainer{
+  height: 300px;
+  width: 500px;
+  background-color: yellow;
+  border-radius: 10px;
+  box-shadow: 2px 3px 150px springgreen;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.btnBox{
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+button{
+  padding: 12px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #c7b6b6;
+}
+
+.inc{
+  background-color:rgb(7, 99, 7);
+}
+
+.dec{
+  background-color: rgb(32, 80, 99);
+}
+
+.res{
+  background-color: rgb(138, 37, 37);
+}
+
+.count{
+  font-size: 4rem;
+  font-weight: 700;
+}
